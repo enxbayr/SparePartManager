@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 12px;
+	color: #000;
+}
+h1 {
+	font-size: 16px;
+	color: #00bef5;
+}
+
+.content {
+	clear: left;
+	padding: 5px;
+}
+
+#mainmenu a {
+	color: white;
+	font-weight: bold;
+	background: url('/images/bg_menu.png') repeat-x center;
+	padding: 7px;
+	border: 1px solid #01b0e3;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 10px;
+	height: 25px;
+	border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+#mainmenu a:hover, #mainmenu .selected {
+	color: yellow;
+	background: url('/images/bg_menu_hover.png') repeat-x center;
+}
+
+#mainmenu .logout a, .logout a:hover{
+	color: white;
+	font-weight: bold;
+	background: url('/images/bg_menu_logout.png') repeat-x center;
+	padding: 7px;
+	border: 1px solid #de6902;
+	text-decoration: none;
+	font-size: 10px;
+	height: 25px;
+	border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+
+#list th {
+	border-bottom: 1px solid #EEE;
+	background: #EEE;
+	font-size: 11px;
+	height: 20px;
+}
+#list td {
+	border-bottom: 1px solid #EEE;
+	text-align: center;
+	height: 30px;
+}
+
+#sublist th {
+	border-bottom: 1px solid #EEE;
+	background: #EEE;
+	height: 30px;
+	text-align: right;
+	font-weight: normal;
+	
+}
+#sublist td {
+	border-bottom: 1px solid #EEE;
+	text-align: left;
+	font-weight: bold;
+}
